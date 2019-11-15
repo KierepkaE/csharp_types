@@ -12,5 +12,6 @@ namespace TypesPractice {
       var array2 = array1;
       array2[0] = 0;
       Console.WriteLine (array1);
+      Console.WriteLine (array2);
     }
   }
