@@ -14,4 +14,11 @@ namespace TypesPractice {
       Console.WriteLine (array1);
       Console.WriteLine (array2);
     }
+
+    public static void Increment (int num) {
+      num += 10;
+    }
+    public static void MakeOld (Person person) {
+      person.Age += 10;
+    }
   }
